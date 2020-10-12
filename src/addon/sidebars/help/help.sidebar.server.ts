@@ -4,6 +4,4 @@ export function helpSidebar() {
   );
 }
 
-export function todo() {
-  return 'Add server logic.';
-}
+// TODO: 'Add server logic.'
