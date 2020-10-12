@@ -1,3 +1,3 @@
-export function todo() {
+function todo() {
   return 'Add client logic.';
 }

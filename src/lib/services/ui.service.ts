@@ -7,7 +7,3 @@ export function confirmAlert(message: string, title?: string) {
   const result = ui.alert(title || 'Confirm?', message, ui.ButtonSet.YES_NO);
   return result === ui.Button.YES;
 }
-
-export class UiService {
-  constructor() {}
-}
