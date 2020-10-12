@@ -1,3 +1,1 @@
-function todo() {
-  return 'Add client logic.';
-}
+// TODO: 'Add client logic.'
