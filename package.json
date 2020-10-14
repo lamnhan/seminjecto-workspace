@@ -14,8 +14,8 @@
   ],
   "scripts": {
     "compile": "tsc",
-    "build": "workspace-addon-scripts build",
-    "push": "workspace-addon-scripts push",
+    "build": "seminjecto-workspace-scripts build",
+    "push": "seminjecto-workspace-scripts push",
     "docs": "ayedocs generate",
     "test": "npm run compile && nyc --cache false mocha test/**/*.js",
     "coverage": "nyc --cache false report --reporter=text-lcov | coveralls",
